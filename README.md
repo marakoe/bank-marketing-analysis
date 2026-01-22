@@ -1,13 +1,3 @@
----
-title: "Analyse von Kundensegmenten"
-output: html_document
-date: "2026-01-21"
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 # Bank Marketing – Kundensegmentierung für höhere Abschlusseffizienz
 
 ## Einleitung & Business-Ziel
@@ -29,7 +19,10 @@ Verwendete Merkmale (Auswahl): Alter, Beruf, Familienstand, Bildung, Kontostand,
 
 Insgesamt schlossen 11.7% der Kunden während der Kampagne einen Vertrag ab. Durch systematische Variation von Modellparametern (Kostenmatrix, Mindestgröße der Endknoten, Komplexität) und wiederholte, stratifizierte Datensplits (5-fache Wiederholung) konnten relevante Kundensegmente identifiziert werden.
 
-\*\*Key-Insights:\*\* - Der stärkste Prädiktor ist das \*\*Outcome der vorherigen Kampagne\*\* → Kunden mit Erfolg sofort wieder ansprechen. - \*\*Kein Housing-Kredit\*\* kombiniert mit solidem Saldo ist der zweitbeste Indikator. - Berufe wie Admin, Management, Rentner, Student haben tendenziell höhere Quoten als blue-collar-Gruppen.
+**Key-Insights:** 
+- Der stärkste Prädiktor ist das **Outcome der vorherigen Kampagne** → Kunden mit Erfolg sofort wieder ansprechen.
+- **Kein laufender Immobilienkredit** kombiniert mit solidem Saldo ist der zweitbeste Indikator.
+- Berufe wie Management, Rentner oder Student haben tendenziell höhere Quoten als Arbeiter-Gruppen.
 
 | Modellvariante | Anteil kontaktierten Kunden | Erreichte Abschlüsse | Effizienzsteigerung vs. Random | Kommentar |
 |--------------|--------------|--------------|--------------|----------------|
