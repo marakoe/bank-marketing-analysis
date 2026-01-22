@@ -1,6 +1,6 @@
 # Bank Marketing – Kundensegmentierung für höhere Abschlusseffizienz
 
-## Einleitung & Business-Ziel
+## Einleitung & Ziel
 
 Dieses Projekt analysiert Daten einer portugiesischen Bank aus einer Telefon-Marketing-Kampagne, bei der Kunden für eine Festgeldanlage geworben wurden.
 
