@@ -1,0 +1,10 @@
+# .gitignore
+data/
+data/*
+*.csv              
+*.zip
+*.rar
+__pycache__/
+*.Rproj.user/
+.Rhistory
+.RData
